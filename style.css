@@ -1,0 +1,193 @@
+body {
+    box-sizing: border-box;
+    color: black;
+    background-color: white;
+}
+
+.brand-logo {
+    width: 10vh;
+}
+
+
+
+.head-bar {
+
+    color: white;
+}
+
+
+.nav-item a .dropdown-item {
+    color: white;
+}
+
+.nav-item a:hover .dropdown-item:hover {
+    color: rgb(228, 214, 214);
+}
+
+span a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.btn2 {
+    display: flex;
+    justify-content: center;
+}
+
+.link a {
+    color: rgb(66, 66, 230);
+    text-decoration: none;
+    font-weight: 100;
+
+
+}
+
+.welcome {
+    background-color: white;
+
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+.logos {
+    width: 5vw;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+}
+
+.aboutimg {
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+.headline h3,
+p,
+h1,
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headline h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.butt-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about_img {
+    background-image: url(/images/cover-images/about.jpg);
+
+    /* color: white; */
+
+}
+
+.about_footer h1 {
+    font-size: calc(1.0rem + 1.0vw);
+}
+
+.about_footer_btn {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_img img {
+    width: 1.3rem;
+}
+
+/* About Page CSS */
+
+.AboutNav {
+    background-image: url(/images/cta.jpeg);
+    height: 30vh;
+
+}
+
+.Aboutimage {
+    /* background-color: black; */
+}
+
+.Aboutimage img {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    width: 28vw;
+}
+
+.Aboutimage img:hover {
+    will-change: transform;
+    transform: perspective(1000px) rotateX(0deg) rotateY(0deg) rotateZ(10deg);
+}
+
+.Aboutpage {
+    /* background-color: blue; */
+    color: black;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.cards h2 {
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.custom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    font-weight: 100;
+    font-family: system-ui;
+}
+
+.FooterB {
+    background-image: url(/images/footer-bg.jpg);
+    height: auto;
+    
+}
+.services ul li{
+    text-decoration: none;
+}
+.services li a{
+color: black;
+text-decoration: none;
+}
+/* Fees Calculater */
+
+.fee_form input{
+    display: list-item;
+    width: 50vw;
+    height: 6.5vh;
+    /* color: black; */
+    /* background-color: #fff; */
+}
+.border{
+    border-bottom: 1px solid black ;
+}
+
+
+.social-link a{
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.social-link img{
+    width: 2vw;
+    margin: 1rem;
+    float: right;
+}
